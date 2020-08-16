@@ -1,1 +1,9 @@
-# Note Taker Starter Code
+# Note Taker
+
+## Description
+
+## Screenshot
+
+## Link
+
+## Contributors
