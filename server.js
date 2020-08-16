@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const express = require('express');
+const PORT = process.env.PORT || 3001;
 const app = express();
 const notes = require('./Develop/db/db.json');
 const storeNewNote = require('./Develop/lib/noteHandlers');
@@ -36,6 +37,6 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'develop/public/index.html'));
 });
 
-app.listen(3001, () => {
-    console.log('Server now on port 3001!');
+app.listen(PORT, () => {
+    console.log(`Server now on port ${PORT}!`);
 })
