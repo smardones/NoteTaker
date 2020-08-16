@@ -1,1 +1,37 @@
-[{"title":"Test Title","text":"Test text", "id": "test_id"}]
+[
+  {
+    "title": "Groceries",
+    "text": "Milk, Bread, Eggs",
+    "id": "1"
+  },
+  {
+    "title": "Homework",
+    "text": "Due Sunday",
+    "id": "2"
+  },
+  {
+    "title": "Laundry",
+    "text": "Darks",
+    "id": "21"
+  },
+  {
+    "title": "Dust",
+    "text": "Get dusting spray",
+    "id": "211"
+  },
+  {
+    "title": "Vaccum",
+    "text": "Living room, Bedroom",
+    "id": "212"
+  },
+  {
+    "title": "Wash Cars",
+    "text": "Scheduled in the AM",
+    "id": "213"
+  },
+  {
+    "title": "Clean Bathroom",
+    "text": "Tub, Toilet, Floor, Mirro",
+    "id": "214"
+  }
+]
